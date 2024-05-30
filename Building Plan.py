@@ -167,10 +167,3 @@ building.add_floor(first_floor)
 
 # Visualize the building
 plot_building(building)
-
-
-# In[ ]:
-
-
-
-
