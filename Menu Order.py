@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 #menu order
 import tkinter as tk  # Importing tkinter
 from tkinter import messagebox  # For showing message boxes
