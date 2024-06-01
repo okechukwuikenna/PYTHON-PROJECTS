@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 from rdkit import Chem
 from rdkit.Chem import AllChem, DataStructs
 
