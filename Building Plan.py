@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 class Room:
     def __init__(self, name, length, width, height, purpose):
         self.name = name
@@ -97,10 +94,6 @@ building.add_floor(first_floor)
 
 # Print building summary
 print(building.building_summary())
-
-
-# In[2]:
-
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
