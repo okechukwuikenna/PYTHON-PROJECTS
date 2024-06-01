@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 #Creating a simple Point of Sale (POS) machine payment system using Python involves several key components#
 class Product:
     def __init__(self, name, price, quantity):
@@ -36,10 +33,6 @@ if __name__ == "__main__":
         print(f"Product: {product.name}, Price: {product.price}, Quantity: {product.quantity}")
 
 
-
-# In[ ]:
-
-
 class Cart:
     def __init__(self):
         self.items = []
@@ -70,9 +63,6 @@ if __name__ == "__main__":
     cart.add_item(inventory.get_product('Banana'), 2)
 
     print(cart.generate_receipt())
-
-
-# In[ ]:
 
 
 class Payment:
@@ -114,9 +104,6 @@ if __name__ == "__main__":
         print("Payment successful.")
     else:
         print("Payment failed.")
-
-
-# In[ ]:
 
 
 def main():
