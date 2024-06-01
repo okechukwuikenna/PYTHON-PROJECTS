@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 # Create a new Python file named chemistry_analysis.py. This script will read chemical structures, compute molecular properties, and visualize the molecules
 from rdkit import Chem
 from rdkit.Chem import Descriptors, Draw
