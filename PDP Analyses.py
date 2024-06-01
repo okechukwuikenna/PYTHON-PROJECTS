@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #Potentiodynamic Polirization
 import numpy as np
 import matplotlib.pyplot as plt
@@ -42,10 +33,6 @@ plt.legend()
 plt.grid(True)
 plt.yscale('log')  # Logarithmic scale for current density
 plt.show()
-
-
-# In[7]:
-
 
 # Working with Methane:
 import numpy as np
@@ -108,9 +95,6 @@ print(f"Anodic exchange current density (i0_anodic): {i0_anodic:.4e} A/cm²")
 print(f"Cathodic exchange current density (i0_cathodic): {i0_cathodic:.4e} A/cm²")
 print(f"Corrosion current density (icorr): {icorr:.4e} A/cm²")
 print(f"Corrosion rate: {corrosion_rate:.4f} mm/year")
-
-
-# In[8]:
 
 
 import hardpotato as hp
@@ -209,20 +193,9 @@ plt.plot(wf.E, iSim*1e6, 'k--')
 plt.title('Experiment (-) vs Simulation (--)')
 sp.plotting.format(xlab='$E$ / V', ylab='$i$ / $\mu$A', legend=[0], show=1)
 
-
-# In[9]:
-
-
 pip install hardpotato
 
-
-# In[10]:
-
-
 pip install softpotato
-
-
-# In[ ]:
 
 
 Potential,CurrentDensity
@@ -267,9 +240,6 @@ Potential,CurrentDensity
 0.9,6.80E-06
 0.95,7.50E-06
 1.0,8.20E-06
-
-
-# In[ ]:
 
 
 import numpy as np
@@ -334,9 +304,6 @@ print(f"Corrosion current density (icorr): {icorr:.4e} A/cm²")
 print(f"Corrosion rate: {corrosion_rate:.4f} mm/year")
 
 
-# In[ ]:
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -397,9 +364,6 @@ print(f"Anodic exchange current density (i0_anodic): {i0_anodic:.4e} A/cm²")
 print(f"Cathodic exchange current density (i0_cathodic): {i0_cathodic:.4e} A/cm²")
 print(f"Corrosion current density (icorr): {icorr:.4e} A/cm²")
 print(f"Corrosion rate: {corrosion_rate:.4f} mm/year")
-
-
-# In[ ]:
 
 
 #In the context of potentiodynamic polarization analysis, the primary parameters that may need adjustment to achieve accurate and reliable results include the following:
