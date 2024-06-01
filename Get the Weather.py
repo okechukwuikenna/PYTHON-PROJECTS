@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 #getting the weather:
 import requests
 import json
@@ -49,8 +46,6 @@ if __name__ == "__main__":
 
     main()
 
-
-# In[ ]:
 def save_weather(data, filename='weather_data.json'):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
@@ -73,7 +68,6 @@ if __name__ == "__main__":
         print("Failed to get weather data.")
 
 
-# In[ ]:
 import matplotlib.pyplot as plt
 
 def plot_weather(data):
